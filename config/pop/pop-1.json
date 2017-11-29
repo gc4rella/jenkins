@@ -1,0 +1,12 @@
+{
+  "name":"pop-1",
+  "authUrl":"http://127.0.0.1:5000/v2.0",
+  "tenant":"admin",
+  "username":"admin",
+  "password":"admin",
+  "keyPair":"default",
+  "securityGroups": [
+    "default"
+  ],
+  "type":"openstack"
+}

@@ -31,10 +31,12 @@ install_docker() {
 	$_ex 'add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"'
 	$_ex 'apt-get update'
 	$_ex 'apt-get install -y docker-ce'
+	$_ex 'usermod -aG docker $USER'
 }
 
+
 build_jenkins_image() {
-	docker build . -t jenkins/jenkins:lts-local
+	 $_ex 'docker build . -t jenkins/jenkins:lts-local'
 }
 
 install_docker
