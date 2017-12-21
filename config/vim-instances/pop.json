@@ -1,9 +1,9 @@
 {
-  "name":"pop-1",
-  "authUrl":"http://127.0.0.1:5000/v2.0",
+  "name":"vim-instance",
+  "authUrl":"http://auth-url:5000/v2.0",
   "tenant":"admin",
   "username":"admin",
-  "password":"admin",
+  "password":"openbaton",
   "keyPair":"default",
   "securityGroups": [
     "default"

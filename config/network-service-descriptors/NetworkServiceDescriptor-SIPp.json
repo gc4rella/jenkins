@@ -1,0 +1,13 @@
+{
+    "name":"NSD SIPp",
+    "vendor":"FOKUS",
+    "version":"1.0.1",
+    "vld":[
+        {
+            "name":"private"
+        }
+    ],
+    "vnfd": [{"type":"client"},{"type":"server"}],
+    "vnf_dependency":[
+    ]
+}
